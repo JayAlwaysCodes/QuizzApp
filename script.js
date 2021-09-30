@@ -1,4 +1,5 @@
 const quizData = [
+    
     {
         question: 'How Old is Nigeria?',
         a :"50",
@@ -42,7 +43,8 @@ const quizData = [
     }
 
 ]
-const answerEls = document.querySelectorAll('.answer')
+const answerEls = document.querySelectorAll('.sec')
+
 const quiz = document.getElementById('quiz')
 const questionEl = document.getElementById('question')
 const a_text = document.getElementById('a_text');
@@ -122,3 +124,37 @@ submitBtn.addEventListener('click', ()=>{
 
     
 )
+
+// <ul>
+            
+
+        
+//             <p>
+//                 <li>
+//                     <input type="radio" id="a" class="answer" value="a">
+//                     <label for="a" id="a_text">Question</label>
+//                 </li>
+//             </p>
+                
+            
+            
+//             <p>
+//                 <li>
+//                     <input type="radio" id="b" class="answer" value="b">
+//                     <label for="b" id="b_text">Question</label>
+//                 </li>    
+//             </p>
+//             <li>
+//                 <input type="radio" id="c" class="answer" value="c">
+//                 <label for="c" id="c_text">Question</label>
+//             </li>
+                
+            
+//             <li>
+//                 <input type="radio" id="d" class="answer" value="d">
+//                 <label for="d" id="d_text">Question</label>
+//             </li>
+                
+            
+            
+//         </ul> 
